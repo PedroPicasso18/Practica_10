@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(https://www.apestan.com/content_files/case_attached_images/8c8d5dce1179643cd40af96e022b665f.jpg);
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    background-color: #d9ecf2;
+}
+
+.form-register{
+    width: 98%;
+    max-width: 500px;
+    margin: auto;
+    background: #f56a79;
+    border-radius: 7px;
+}
+
+.form__titulo{
+    background: #ffe600;
+    color: #ec0101;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 5px solid;
+}
+
+.contenedor-inputs{
+    padding: 30px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ 
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #1aa6b7;
+}
+.input-48{
+    width: 48%;
+}
+
+.input-100{
+    width: 100%;
+}
+ .btn-enviar{
+     background:#1aa6b7 ;
+     color:white;
+     margin: auto;
+     padding: 10px  40px;
+     cursor: pointer;
+ }
+
+ .btn-enviar:active{
+     transform: scale(1.05);
+ }
+ .form-link{
+     width: 100px;
+     margin: 7px;
+     text-align: center;
+     font-size: 14px;
+ }
+
+
+.btn__form{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
